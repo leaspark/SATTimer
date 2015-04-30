@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668B59A41ADD6F9900A729F1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B59A31ADD6F9900A729F1 /* TimerViewController.swift */; };
+		668B59D41AE1702E00A729F1 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B59D31AE1702E00A729F1 /* ScoreViewController.swift */; };
+		668B59D61AE8647A00A729F1 /* scorehistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B59D51AE8647A00A729F1 /* scorehistory.swift */; };
 		66DB54221ACEF34D0033172A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB54211ACEF34D0033172A /* AppDelegate.swift */; };
 		66DB54241ACEF34D0033172A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB54231ACEF34D0033172A /* FirstViewController.swift */; };
 		66DB54261ACEF34D0033172A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB54251ACEF34D0033172A /* SecondViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		668B59A31ADD6F9900A729F1 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
+		668B59D31AE1702E00A729F1 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		668B59D51AE8647A00A729F1 /* scorehistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scorehistory.swift; sourceTree = "<group>"; };
 		66DB541C1ACEF34D0033172A /* SATTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SATTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DB54201ACEF34D0033172A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66DB54211ACEF34D0033172A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				66DB54211ACEF34D0033172A /* AppDelegate.swift */,
 				66DB54231ACEF34D0033172A /* FirstViewController.swift */,
 				66DB54251ACEF34D0033172A /* SecondViewController.swift */,
+				668B59A31ADD6F9900A729F1 /* TimerViewController.swift */,
+				668B59D51AE8647A00A729F1 /* scorehistory.swift */,
+				668B59D31AE1702E00A729F1 /* ScoreViewController.swift */,
 				66DB54271ACEF34D0033172A /* Main.storyboard */,
 				66DB542A1ACEF34E0033172A /* Images.xcassets */,
 				66DB542C1ACEF34E0033172A /* LaunchScreen.xib */,
@@ -215,7 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668B59A41ADD6F9900A729F1 /* TimerViewController.swift in Sources */,
+				668B59D61AE8647A00A729F1 /* scorehistory.swift in Sources */,
 				66DB54261ACEF34D0033172A /* SecondViewController.swift in Sources */,
+				668B59D41AE1702E00A729F1 /* ScoreViewController.swift in Sources */,
 				66DB54221ACEF34D0033172A /* AppDelegate.swift in Sources */,
 				66DB54241ACEF34D0033172A /* FirstViewController.swift in Sources */,
 			);
@@ -409,6 +421,7 @@
 				66DB543F1ACEF34E0033172A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66DB54401ACEF34E0033172A /* Build configuration list for PBXNativeTarget "SATTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				66DB54421ACEF34E0033172A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
